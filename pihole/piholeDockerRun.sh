@@ -15,7 +15,7 @@ docker run -d \
 -e WEBPASSWORD="!!! ENTER PASSWORD HERE !!!" \
 -v "${PIHOLE_BASE}/etc-pihole/:/etc/pihole/" \
 -v "${PIHOLE_BASE}/etc-dnsmasq.d/:/etc/dnsmasq.d/" \
---dns=9.9.9.9 \
+--dns=1.1.1.1 \
 --restart=always \
 --hostname pi.hole \
 -e VIRTUAL_HOST="pi.hole" \
